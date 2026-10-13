@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+
+# Palette caches and generated exports
+.cache/
+palettes/generated/
+exports/*.png
+exports/*.ase
+*.log
+
+# Model weights downloaded at runtime
+models/weights/*.pt
+models/weights/*.onnx
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local config overrides
+config/local.toml
