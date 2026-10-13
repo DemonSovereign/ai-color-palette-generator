@@ -1,0 +1,9 @@
+[palette_gen]
+log_level = "INFO"
+cache_dir = ".cache/palette_gen"
+export_dir = "exports"
+max_image_dim = 8192
+kmeans_iters = 24
+kmeans_seed = 6767
+ai_backend = "kmeans"
+weights_path = "models/weights/palette_embed.pt"
